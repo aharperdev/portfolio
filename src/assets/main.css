@@ -1,0 +1,90 @@
+@import './base.css';
+
+a {
+  text-decoration: none !important;
+}
+
+.p5 {
+  background-color: #ed225d;
+  color: whitesmoke;
+}
+
+.js {
+  background-color: #f0db4f;
+  color: var(--secondary-color);
+}
+
+.laravel {
+  background-color: #f05340;
+  color: whitesmoke;
+}
+
+.mysql {
+  background-color: #00758f;
+  color: whitesmoke;
+}
+
+.info {
+  background-color: var(--primary-color);
+  overflow: hidden;
+}
+
+.info a {
+  color: var(--highlight-color);
+}
+
+.info a:hover {
+  color: var(--highlight-color-dark);
+}
+
+.info i {
+  padding: 0px 10px;
+}
+
+.info i:hover {
+  color: var(--highlight-color-dark);
+}
+
+.info .skills {
+  text-align: left;
+}
+
+.profile-pic {
+  border-radius: 60%;
+  height: 150px;
+  width: 150px;
+}
+
+.content {
+  background-color: var(--secondary-color);
+}
+
+.projects iframe {
+  overflow: hidden;
+  margin: 0 auto;
+  display: block;
+}
+
+.projects .card {
+  background-color: var(--highlight-color-dark);
+  margin-top: 30px;
+}
+
+.projects .card a {
+  color: var(--highlight-color);
+}
+
+.projects .card .card-text a:hover {
+  color: var(--primary-color);
+}
+
+@media (min-width: 768px) {
+  body {
+    overflow: hidden;
+  }
+
+  .content {
+    height: 100vh;
+    overflow-y: scroll;
+  }
+}
