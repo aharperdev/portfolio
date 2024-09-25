@@ -46,6 +46,7 @@ a {
 }
 
 .profile-pic {
+  margin-top: 10%;
   border-radius: 60%;
   height: 150px;
   width: 150px;
@@ -82,5 +83,12 @@ a {
   .content {
     height: 100vh;
     overflow-y: scroll;
+  }
+
+  .profile-pic {
+    margin-top: 0 !important;
+    border-radius: 0;
+    height: auto;
+    width: 100%;
   }
 }
