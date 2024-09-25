@@ -45,10 +45,6 @@ a {
   color: var(--highlight-color-dark);
 }
 
-.info .skills {
-  text-align: left;
-}
-
 .profile-pic {
   border-radius: 60%;
   height: 150px;
