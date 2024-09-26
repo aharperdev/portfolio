@@ -1,0 +1,26 @@
+$primary: #205269;
+$secondary: #d0818c;
+$dark: #1d3e50;
+$light: #f2f2f2;
+
+$theme-colors: (
+  'primary': #205269,
+  'secondary': #d0818c,
+  'dark': #1d3e50,
+  'light': #f2f2f2
+);
+
+// :root {
+//   --primary-color: #205269;
+//   --secondary-color: #1D3E50;
+//   --text-color: #f2f2f2;
+//   --highlight-color: #ffff;
+//   --highlight-color-dark: #284b63;
+// }
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+* {
+  color: $light;
+  font-family: 'Chakra Petch', sans-serif;
+}

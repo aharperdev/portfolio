@@ -5,7 +5,6 @@ import { Projects } from '@/assets/posts'
 
 <template>
   <div class="projects container-fluid mt-2">
-    <h2>Proyectos</h2>
     <div class="row justify-content-center">
       <div v-for="project of Projects" class="col-lg-12">
         <Post

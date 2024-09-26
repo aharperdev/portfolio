@@ -1,4 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.css'
 import './assets/main.css'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
