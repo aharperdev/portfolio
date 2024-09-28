@@ -4,7 +4,7 @@ import { Projects } from '@/assets/posts'
 </script>
 
 <template>
-  <div class="projects container-fluid mt-2">
+  <div class="projects container-fluid mt-4">
     <div class="row justify-content-center">
       <div v-for="project of Projects" class="col-lg-12">
         <Post

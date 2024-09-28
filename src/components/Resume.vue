@@ -21,12 +21,15 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
         src="https://avatars.githubusercontent.com/u/24919733"
         alt="avatar"
       />
-      <h4>Andre Gaete Barra</h4>
-      <h6>Fullstack Developer</h6>
+
+      <div class="d-sm-inline d-md-none">
+        <h4>Andre Gaete Barra</h4>
+        <h6>Fullstack Developer</h6>
+      </div>
     </div>
     <div class="px-3 pb-5 flex-grow-1 d-flex flex-column justify-content-between">
       <div class="text-start">
-        <hr />
+        <hr class="d-sm-inline d-md-none" />
         <h5>Habilidades</h5>
         <ul class="list-unstyled ps-1">
           <li class="d-flex gap-2 align-items-center">
@@ -122,5 +125,32 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 li {
   padding: 5px 10px;
+}
+
+.progress {
+  animation: progress 1.6s;
+}
+
+@keyframes progress {
+  from {
+    width: 0;
+  }
+}
+
+.profile-pic {
+  height: 300px;
+}
+
+@media (max-width: 768px) {
+  .profile-pic {
+    border-radius: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .profile-pic {
+    margin-top: 0;
+    border-radius: 0;
+  }
 }
 </style>

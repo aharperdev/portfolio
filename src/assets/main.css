@@ -31,11 +31,4 @@ a {
     height: 100vh;
     overflow-y: scroll;
   }
-
-  .profile-pic {
-    margin-top: 0 !important;
-    border-radius: 0;
-    height: auto;
-    width: 100%;
-  }
 }
