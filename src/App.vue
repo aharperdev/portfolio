@@ -59,8 +59,8 @@ import { faCodeBranch } from '@fortawesome/free-solid-svg-icons'
             />
           </div>
 
-          <div class="overflow-scroll">
-            <RouterView />
+          <div class="overflow-scroll flex-grow-1">
+            <RouterView class="h-100" />
           </div>
         </div>
       </div>

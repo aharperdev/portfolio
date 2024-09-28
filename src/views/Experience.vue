@@ -1,5 +1,5 @@
 <template>
-  <div class="row text-dark mt-4">
+  <div class="row text-dark pt-4">
     <div class="col-12 d-flex flex-column gap-5 p-3 ps-5">
       <div class="d-flex flex-column">
         <div class="lh-sm">
