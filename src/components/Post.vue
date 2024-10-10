@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import VueMarkdown from 'vue-markdown-render'
 
 export interface Post {
   title?: string
@@ -19,7 +20,7 @@ defineProps<Post>()
     </div>
     <div class="card-body">
       <h4 class="card-title text-light">{{ title }}</h4>
-      <div v-html="content"></div>
+      <VueMarkdown :source="content" />
     </div>
     <div class="card-footer d-flex flex-row justify-content-evenly">
       <a v-for="link in links" class="text-light text-hover-secondary" :href="link.url">

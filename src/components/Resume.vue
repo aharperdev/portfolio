@@ -6,11 +6,31 @@ import {
   faLinux,
   faNodeJs,
   faReact,
-  faVuejs
+  faVuejs,
+  type IconDefinition
 } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
-import { faCog } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faUser } from '@fortawesome/free-regular-svg-icons'
+import { faCodeBranch, faCog } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
+type Route = {
+  to: string
+  text: string
+  icon?: IconDefinition
+}
+
+const routes: Route[] = [
+  {
+    to: '/',
+    text: 'Experiencia'
+    // icon: faUser
+  },
+  {
+    to: '/projects',
+    text: 'Proyectos'
+    // icon: faCodeBranch
+  }
+]
 </script>
 
 <template>
@@ -22,15 +42,15 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
         alt="avatar"
       />
 
-      <div class="d-sm-inline d-md-none">
+      <div class="d-sm-inline pb-3 d-md-none">
         <h4>Andre Gaete Barra</h4>
         <h6>Fullstack Developer</h6>
       </div>
     </div>
-    <div class="px-3 pb-5 flex-grow-1 d-flex flex-column justify-content-between">
-      <div class="text-start">
+    <div class="flex-grow-1 d-md-flex d-none flex-column justify-content-between">
+      <div class="text-end d-flex flex-column">
         <hr class="d-sm-inline d-md-none" />
-        <h5>Habilidades</h5>
+        <!-- <h5>Habilidades</h5>
         <ul class="list-unstyled ps-1">
           <li class="d-flex gap-2 align-items-center">
             <FontAwesomeIcon :icon="faAngular" size="lg"></FontAwesomeIcon>
@@ -98,9 +118,20 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
               </div>
             </div>
           </li>
-        </ul>
+        </ul> -->
+        <RouterLink
+          v-for="route in routes"
+          :to="route.to"
+          :class="{
+            'text-decoration-underline': $route.path === route.to
+          }"
+          class="fs-3 my-0 py-0 px-2 ps-3 rounded-start-1 text-light"
+        >
+          <FontAwesomeIcon v-if="route.icon" :icon="route.icon" size="2xs"></FontAwesomeIcon>
+          {{ route.text }}</RouterLink
+        >
       </div>
-      <div>
+      <div class="p-4">
         <hr />
         <div class="d-flex justify-content-around">
           <a href="https://github.com/Locksdn">
