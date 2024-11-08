@@ -5,11 +5,12 @@ import {
   faLinkedin,
   faLinux,
   faNodeJs,
+  faPython,
   faReact,
-  faVuejs
+  faVuejs,
 } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
-import { faCog } from '@fortawesome/free-solid-svg-icons'
+import { faCog, faLanguage } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 </script>
 
@@ -36,27 +37,18 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
             <FontAwesomeIcon :icon="faAngular" size="lg"></FontAwesomeIcon>
             <div class="d-flex flex-column w-100">
               <span>Angular</span>
-              <div style="height: 10px" class="progress-bar bg-light rounded-1">
-                <div class="progress bg-secondary rounded-0" style="width: 80%"></div>
-              </div>
             </div>
           </li>
           <li class="d-flex gap-2 align-items-center">
             <FontAwesomeIcon :icon="faVuejs" size="lg"></FontAwesomeIcon>
             <div class="d-flex flex-column w-100">
               <span>Vue</span>
-              <div style="height: 10px" class="progress-bar bg-light rounded-1">
-                <div class="progress bg-secondary rounded-0" style="width: 60%"></div>
-              </div>
             </div>
           </li>
           <li class="d-flex gap-2 align-items-center">
             <FontAwesomeIcon :icon="faReact" size="lg"></FontAwesomeIcon>
             <div class="d-flex flex-column w-100">
               <span>React</span>
-              <div style="height: 10px" class="progress-bar bg-light rounded-1">
-                <div class="progress bg-secondary rounded-0" style="width: 40%"></div>
-              </div>
             </div>
           </li>
 
@@ -64,9 +56,6 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
             <FontAwesomeIcon :icon="faCog" size="lg"></FontAwesomeIcon>
             <div class="d-flex flex-column w-100">
               <span>Testing Automatizado</span>
-              <div style="height: 10px" class="progress-bar bg-light rounded-1">
-                <div class="progress bg-secondary rounded-0" style="width: 72%"></div>
-              </div>
             </div>
           </li>
 
@@ -74,9 +63,14 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
             <FontAwesomeIcon :icon="faNodeJs" size="lg"></FontAwesomeIcon>
             <div class="d-flex flex-column w-100">
               <span>Node</span>
-              <div style="height: 10px" class="progress-bar bg-light rounded-1">
-                <div class="progress bg-secondary rounded-0" style="width: 56%"></div>
-              </div>
+            </div>
+          </li>
+
+          <!-- python -->
+          <li class="d-flex gap-2 align-items-center">
+            <FontAwesomeIcon :icon="faPython" size="lg"></FontAwesomeIcon>
+            <div class="d-flex flex-column w-100">
+              <span>Python</span>
             </div>
           </li>
 
@@ -84,18 +78,13 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
             <FontAwesomeIcon :icon="faLinux" size="lg"></FontAwesomeIcon>
             <div class="d-flex flex-column w-100">
               <span>GNU/Linux</span>
-              <div style="height: 10px" class="progress-bar bg-light rounded-1">
-                <div class="progress bg-secondary rounded-0" style="width: 76%"></div>
-              </div>
             </div>
           </li>
 
           <li class="d-flex gap-2 align-items-center">
+            <FontAwesomeIcon :icon="faLanguage" size="lg"></FontAwesomeIcon>
             <div class="d-flex flex-column w-100">
-              <span>Ingles</span>
-              <div style="height: 10px" class="progress-bar bg-light rounded-1">
-                <div class="progress bg-secondary rounded-0" style="width: 60%"></div>
-              </div>
+              <span>Ingles C1</span>
             </div>
           </li>
         </ul>
@@ -103,10 +92,10 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
       <div>
         <hr />
         <div class="d-flex justify-content-around">
-          <a href="https://github.com/Locksdn">
+          <a href="https://github.com/aharperdev">
             <FontAwesomeIcon :icon="faGithub" size="2x"></FontAwesomeIcon>
           </a>
-          <a href="https://www.linkedin.com/in/sebastian-gaeteb/">
+          <a href="https://www.linkedin.com/in/dandrebarra/">
             <FontAwesomeIcon :icon="faLinkedin" size="2x"></FontAwesomeIcon>
           </a>
           <a href="mailto:dandrebarra@gmail.com">

@@ -9,10 +9,10 @@ export const BoidsProject: Post = {
   links: [
     {
       text: 'Github',
-      url: 'https://github.com/Locksdn/p5-quadtrees',
+      url: 'https://github.com/aharperdev/p5-quadtrees',
       icon: 'fa-brands fa-square-github'
     },
-    { text: 'Live demo', url: 'https://locksdn.github.io/p5-quadtrees/' }
+    { text: 'Live demo', url: 'https://aharperdev.github.io/p5-quadtrees/' }
   ],
   content: `
   <p class="card-text">
@@ -30,7 +30,7 @@ export const BoidsProject: Post = {
           width="215px"
           height="215px"
           scrolling="no"
-          src="https://locksdn.github.io/p5-quadtrees/"
+          src="https://aharperdev.github.io/p5-quadtrees/"
           frameborder="0"
         ></iframe>
       </div>
@@ -40,7 +40,7 @@ export const BoidsProject: Post = {
           width="215px"
           height="215px"
           scrolling="no"
-          src="https://locksdn.github.io/p5-quadtrees/Boids/boids.html"
+          src="https://aharperdev.github.io/p5-quadtrees/Boids/boids.html"
           frameborder="0"
         ></iframe>
       </div>
