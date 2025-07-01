@@ -18,7 +18,7 @@ import { faCodeBranch } from '@fortawesome/free-solid-svg-icons'
             <div class="col-9 d-flex pb-0">
               <div class="d-flex flex-column justify-content-between">
                 <div class="d-flex flex-column py-5">
-                  <h1 class="lh-1 mb-0 fw-bold">Andre Gaete Barra</h1>
+                  <h1 class="lh-1 mb-0 fw-bold">Sara Gaete Barra</h1>
                   <span class="fs-4"> FullStack Developer </span>
                 </div>
                 <div class="d-flex">
