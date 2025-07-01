@@ -24,7 +24,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
       />
 
       <div class="d-sm-inline d-md-none">
-        <h4>Andre Gaete Barra</h4>
+        <h4>Sara Gaete Barra</h4>
         <h6>Fullstack Developer</h6>
       </div>
     </div>
